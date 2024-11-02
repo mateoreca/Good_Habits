@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3E0505">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="151dp"
+        android:layout_height="168dp"
+        android:layout_marginTop="65dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/usuario" />
+
+    <Button
+        android:id="@+id/cerrar_sesion"
+        android:layout_width="174dp"
+        android:layout_height="60dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="144dp"
+        android:backgroundTint="#E22929"
+        android:textColorLink="#FFFFFF"
+        android:text="Cerrar Sesión"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/eliminar_habitos"
+        android:layout_width="174dp"
+        android:layout_height="60dp"
+        android:layout_marginEnd="116dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginBottom="272dp"
+        android:backgroundTint="#E22929"
+        android:text="Eliminar habitos"
+        android:textColorLink="#FFFFFF"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/anterior_configuracion"
+        android:layout_width="119dp"
+        android:layout_height="51dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginStart="17dp"
+        android:layout_marginBottom="15dp"
+        android:textColorLink="#FFFFFF"
+        android:backgroundTint="#E22929"
+        android:text="Anterior"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

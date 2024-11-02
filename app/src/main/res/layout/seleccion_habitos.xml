@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3E0505">
+
+    <Button
+        android:id="@+id/siguiente_habitos"
+        android:layout_width="158dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="196dp"
+        android:layout_marginTop="652dp"
+        android:backgroundTint="#E22929"
+        android:text="Finalizar selección"
+        android:textColor="#FFFFFF"
+        android:textColorLink="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/meditar"
+        android:layout_width="309dp"
+        android:layout_height="74dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="164dp"
+        android:backgroundTint="#E22929"
+        android:textColor="#FFFFFF"
+        android:text="Meditar"
+        android:textColorLink="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/dejar_habito"
+        android:layout_width="309dp"
+        android:layout_height="74dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="72dp"
+        android:backgroundTint="#E22929"
+        android:text="Dejar un hábito"
+        android:textColorLink="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/ejercicio"
+        android:layout_width="309dp"
+        android:layout_height="74dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="260dp"
+        android:backgroundTint="#E22929"
+        android:text="Hacer ejercicio"
+        android:textColorLink="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/leer"
+        android:layout_width="309dp"
+        android:textColor="#FFFFFF"
+        android:layout_height="74dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="348dp"
+        android:backgroundTint="#E22929"
+        android:text="Leer"
+        android:textColorLink="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/otro"
+        android:layout_width="309dp"
+        android:layout_height="74dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="544dp"
+        android:backgroundTint="#E22929"
+        android:text="Otro"
+        android:textColorLink="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/tomar_agua"
+        android:layout_width="309dp"
+        android:layout_height="74dp"
+        android:textColor="#FFFFFF"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="448dp"
+        android:backgroundTint="#E22929"
+        android:text="Tomar agua"
+        android:textColorLink="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="51dp"
+        android:layout_marginTop="16dp"
+        android:text="Selecciona un hábito para iniciar"
+        android:textColor="#ffffff"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
